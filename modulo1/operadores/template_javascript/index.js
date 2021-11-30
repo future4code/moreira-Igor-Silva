@@ -50,11 +50,37 @@ console.log("Soma =", soma)
 
     console.log("Sua idade é maior do que a do seu melhor amigo?")
     console.log(idadeUsuario > idadeAmigo)
-    console.log("Diferença de idade:", idadeUsuario - idadeAmigo, "anos.")
+    console.log("Diferença de idade:", idadeUsuario - idadeAmigo, "ano(s).")
 
     //Ex. 02
 
-    const 
+    const numPar = Number(prompt("Digite um número Par"))
+    console.log("Numero é par?", numPar % 2 === 0)
+
+    //Não consegui colocar para dividir por dois, apenas para ele imprmir
+    //se o número inserido pelo usuário é falso ou verdadeiro.
+
+    //Ex. 03
+
+    const usuarioIdade = Number(prompt("Digite sua idade"))
+      console.log("Você tem", usuarioIdade, "anos.")
+      console.log("Você tem", usuarioIdade * 12, "meses")
+      console.log("Você tem", usuarioIdade * 365, "dias")
+      console.log("Você tem", usuarioIdade * 262.800, "horas")
+ 
+//Ex. 04
+
+const numeroUm = Number(prompt("Digite um número"))
+const numerodois = Number(prompt("Digite outro número"))
+    console.log(numeroUm >= numerodois) // true
+    console.log(numeroUm === numerodois) // false
+    console.log(numeroUm >= numerodois) // true
+    console.log(numerodois <= numeroUm) // true
+
+
+
+   
+
 
 
 
